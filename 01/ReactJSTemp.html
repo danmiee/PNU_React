@@ -1,0 +1,49 @@
+<!-- 수기작성 리액트의 어려움을 겪어보라는 의미로 해봄 -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Hello World</title>
+  <!-- React CDN -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+  <!-- Reat 함수형 컴포넌트 만들기 JSX -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+  <div id="root"></div>
+
+  <script type="text/babel">
+    /*
+    // Hello 컴포넌트
+    class Hello extends React.Component {
+      render() {
+        return React.createElement('h1', null, `Hello ${this.props.toWhat}`);
+      }
+    }
+    // DOM 랜더링
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(React.createElement(Hello, { toWhat: 'React'}, null));
+    */
+
+    /* 
+    컴포넌트 이름은 항상 대문자로 시작
+    태그는 항상 하나만 사용 가능 (단, 자식태그 사용가능)
+    */
+    function MyHello() {
+      return (
+        <p>
+          <h1>K-Digital</h1>
+        </p>
+      );
+    }
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<MyHello />);
+  </script>
+</body>
+
+</html>
