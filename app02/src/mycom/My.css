@@ -2,13 +2,16 @@ div {
   display: inline-block;
   background-color: #61DAFC;
   color: #282c34;
-  height: 15vh;
 }
 
-h2 {
-  padding: 2%;
+.name {
+  width: 40vw;
+  height: 2em;
 }
 
-.h2contents {
-  font-size: 2.5rem;
+.clock {
+  height: max-content;
+  width: 60vw;
+  font-size: 2rem;
+  text-align: left;
 }
