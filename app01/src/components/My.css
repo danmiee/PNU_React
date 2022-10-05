@@ -1,0 +1,11 @@
+div {
+  background-color: #43ccf9;
+}
+
+h2 {
+  color: #282c34;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

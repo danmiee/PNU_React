@@ -1,5 +1,7 @@
+// 패키지 가져오기
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+// css 가져오기
 import './index.css';
 // 생성한 컴포넌트 import로 등록
 import App from './App';
@@ -7,13 +9,13 @@ import reportWebVitals from './reportWebVitals';
 
 // 기본적인 가상돔 형성
 const root = ReactDOM.createRoot(document.getElementById('root'));
+// render : 가상돔을 root에 붙임
 root.render(
   // 지금부터 리액트 폼에 맞춰서 작성하기
   <React.StrictMode>
     {/* 컴포넌트(사용자정의 태그) 생성
       App.js에서 정의
-      내가 만드는 컴포먼트는 반드시 대문자로 시작
-    */}
+      내가 만드는 컴포먼트는 반드시 대문자로 시작 */}
     <App />
   </React.StrictMode>
 );
