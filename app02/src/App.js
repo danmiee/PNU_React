@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import MyTick from './components/MyTick';
+import MyTick from './mycom/MyTick';
 
 function App() {
   return (
