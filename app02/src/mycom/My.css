@@ -1,0 +1,14 @@
+div {
+  display: inline-block;
+  background-color: #61DAFC;
+  color: #282c34;
+  height: 15vh;
+}
+
+h2 {
+  padding: 2%;
+}
+
+.h2contents {
+  font-size: 2.5rem;
+}
