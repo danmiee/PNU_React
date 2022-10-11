@@ -2,7 +2,7 @@ import '../css/layout.css';
 import '../css/mediaqueries.css';
 import '../css/header.css';
 
-function Myheader() {
+function MyHeader() {
   return (
     <header>
         <section>
@@ -20,4 +20,4 @@ function Myheader() {
   );
 }
 
-export default Myheader;
+export default MyHeader;

@@ -2,7 +2,7 @@ import '../css/layout.css';
 import '../css/mediaqueries.css';
 import '../css/nav.css';
 
-function Mynav() {
+function MyNav() {
   return (
     <nav>
         <div className="nav_logo">
@@ -22,4 +22,4 @@ function Mynav() {
   );
 }
 
-export default Mynav;
+export default MyNav;

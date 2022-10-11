@@ -3,7 +3,7 @@ import '../css/mediaqueries.css';
 import '../css/main.css';
 import MySection from './MySection'
 
-function Mymain() {
+function MyMain() {
   return (
     <main>
         <MySection h1="HTML" contents="HTML(HyperText Markup Language)은 웹을 이루는 가장 기초적인 구성 요소로, 웹 콘텐츠의 의미와 구조를 정의할 때 사용"/>
@@ -14,4 +14,4 @@ function Mymain() {
   );
 }
 
-export default Mymain;
+export default MyMain;

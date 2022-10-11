@@ -4,18 +4,18 @@ import './css/layout.css';
 import './css/main.css';
 import './css/mediaqueries.css';
 import './css/nav.css';
-import Mynav from './com/Mynav';
-import Myheader from './com/Myheader';
-import Mymain from './com/Mymain';
-import Myfooter from './com/Myfooter';
+import MyNav from './com/MyNav';
+import MyHeader from './com/MyHeader';
+import MyMain from './com/MyMain';
+import MyFooter from './com/MyFooter';
 
 function App() {
   return (
     <div>
-      <Mynav />
-      <Myheader />
-      <Mymain />
-      <Myfooter />
+      <MyNav />
+      <MyHeader />
+      <MyMain />
+      <MyFooter />
     </div>
   );
 }

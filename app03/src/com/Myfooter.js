@@ -2,7 +2,7 @@ import '../css/layout.css';
 import '../css/mediaqueries.css';
 import '../css/footer.css';
 
-function Myfooter() {
+function MyFooter() {
   return (
     <footer>
         <h2>AI 빅데이터분석 풀스택서비스 SW 개발자 양성과정</h2>
@@ -15,4 +15,4 @@ function Myfooter() {
   );
 }
 
-export default Myfooter;
+export default MyFooter;
