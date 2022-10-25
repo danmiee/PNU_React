@@ -37,6 +37,7 @@ npm install gh-pages --save-dev
 ```
 "homepage": "서비스 사이트 주소"
 ```
+* 서비스 사이트 주소 : 4번에서 생성한 'io/리포지토리명/'으로 끝나는 주소
 ### 7. [터미널] gh-pages 배포
 ```
 npm run deploy
