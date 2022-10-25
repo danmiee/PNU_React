@@ -60,3 +60,5 @@ basename = {process.env.PUBLIC_URL}
 ```
 git remote remove origin
 ```
+#### 3. 오타
+##### 터미널 및 6번에서 기재하는 사이트 주소 기재 시 타이핑 주의 필요
