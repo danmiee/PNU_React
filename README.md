@@ -51,7 +51,7 @@ npm run deploy
 ## 221025
 ### [연결오류 다수 발생 사유]
 #### 1. Routes 안에 모든 컴포넌트가 들어가있어서 첫화면 로딩 시 백지
-  ##### [index.js] <BrowserRouter> 속성 추가
+  ##### [index.js] < BrowserRouter > 속성 추가
 ```
 basename = {process.env.PUBLIC_URL}
 ```
