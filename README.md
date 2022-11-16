@@ -52,7 +52,7 @@ npm run deploy
 ### 1. 오타
 #### 터미널 및 6번에서 기재하는 사이트 주소 기재 시 타이핑 주의 필요
 
-### 4. err: src refspec master does not match any
+### 2. err: src refspec master does not match any
 ```
 git init
 git add .
