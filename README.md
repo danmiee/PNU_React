@@ -48,6 +48,24 @@ npm run deploy
 
 <hr />
 
+## [오류상황]
+### 1. 오타
+#### 터미널 및 6번에서 기재하는 사이트 주소 기재 시 타이핑 주의 필요
+
+### 4. err: src refspec master does not match any
+```
+git init
+git add .
+git commit -m "message"
+git remote add origin "깃허브주소"
+git push -u origin master
+```
+#### master 브랜치 없어서 발생하는 경우
+```
+git checkout -b 'master'
+git push origin master
+```
+
 ## 221025 ( react-router-dom )
 ### [연결오류 다수 발생 사유]
 #### 1. Routes 안에 모든 컴포넌트가 들어가있어서 첫화면 로딩 시 백지
@@ -60,5 +78,3 @@ basename = {process.env.PUBLIC_URL}
 ```
 git remote remove origin
 ```
-#### 3. 오타
-##### 터미널 및 6번에서 기재하는 사이트 주소 기재 시 타이핑 주의 필요
